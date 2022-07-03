@@ -5,6 +5,7 @@ module.exports = {
 		"unicorn/filename-case": "off",
 		"unicorn/prefer-module": "off",
 		"import/no-extraneous-dependencies": "off",
+		"import/no-unassigned-import": "off",
 		"import/extensions": "off",
 		"n/no-unsupported-features/es-syntax": "off",
 		"n/prefer-global/process": "off",

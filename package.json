@@ -1,15 +1,15 @@
 {
 	"name": "@bjoluc/eslint-config-xo-next",
 	"version": "1.1.0",
-	"description": "XO and Prettier config for Next.js projects",
-	"main": "eslint.config.js",
+	"description": "ESLint (using XO rules), Prettier, and import-sort config for Next.js projects",
+	"main": ".eslintrc.js",
 	"files": [
-		"eslint.config.js",
+		".eslintrc.js",
 		"prettier.config.js",
 		"importsort.config.js"
 	],
 	"scripts": {
-		"test": "xo ."
+		"test": "eslint ."
 	},
 	"repository": {
 		"type": "git",
@@ -22,19 +22,22 @@
 	},
 	"homepage": "https://github.com/bjoluc/eslint-config-xo-next#readme",
 	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "6.9.0",
+		"@typescript-eslint/parser": "6.9.0",
+		"eslint": "8.52.0",
+		"eslint-config-prettier": "9.0.0",
+		"eslint-config-xo": "0.43.1",
 		"eslint-config-xo-react": "0.27.0",
+		"eslint-config-xo-typescript": "1.0.1",
+		"eslint-plugin-react": "7.33.2",
+		"eslint-plugin-react-hooks": "4.6.0",
 		"import-sort-style-module": "6.0.0",
 		"prettier": "3.0.3",
-		"prettier-plugin-import-sort": "0.0.7",
-		"xo": "0.56.0"
+		"prettier-plugin-import-sort": "0.0.7"
 	},
 	"devDependencies": {
 		"@bjoluc/semantic-release-config-npm": "^5.0.0",
 		"typescript": "^5.2.2"
-	},
-	"xo": {
-		"extends": "./eslint.config.js",
-		"prettier": true
 	},
 	"release": {
 		"extends": "@bjoluc/semantic-release-config-npm"

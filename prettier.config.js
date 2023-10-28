@@ -3,4 +3,7 @@ module.exports = {
 	trailingComma: "es5",
 	useTabs: true,
 	bracketSpacing: false,
+
+	plugins: [require("prettier-plugin-organize-imports")],
+	organizeImportsSkipDestructiveCodeActions: true,
 };

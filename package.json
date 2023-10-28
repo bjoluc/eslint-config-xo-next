@@ -1,12 +1,11 @@
 {
 	"name": "@bjoluc/eslint-config-xo-next",
 	"version": "1.1.0",
-	"description": "ESLint (using XO rules), Prettier, and import-sort config for Next.js projects",
+	"description": "ESLint (using XO rules) and Prettier config for Next.js projects",
 	"main": ".eslintrc.js",
 	"files": [
 		".eslintrc.js",
-		"prettier.config.js",
-		"importsort.config.js"
+		"prettier.config.js"
 	],
 	"scripts": {
 		"test": "eslint ."
@@ -31,9 +30,8 @@
 		"eslint-config-xo-typescript": "1.0.1",
 		"eslint-plugin-react": "7.33.2",
 		"eslint-plugin-react-hooks": "4.6.0",
-		"import-sort-style-module": "6.0.0",
 		"prettier": "3.0.3",
-		"prettier-plugin-import-sort": "0.0.7"
+		"prettier-plugin-organize-imports": "3.2.3"
 	},
 	"devDependencies": {
 		"@bjoluc/semantic-release-config-npm": "^5.0.0",

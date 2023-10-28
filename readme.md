@@ -5,7 +5,7 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-My ESLint (using XO rules, hence the package name), Prettier, and import-sort config for Next.js projects. Note that it includes ESLint, prettier, and prettier-plugin-import-sort as dependencies (so I don't have to update them in each project individually).
+My ESLint (using XO rules, hence the package name) and Prettier config for Next.js projects. Note that it includes ESLint and Prettier as dependencies (so I don't have to update them in each project individually).
 
 ## Usage
 
@@ -27,5 +27,3 @@ In (root) `package.json`:
 },
 "prettier": "@bjoluc/eslint-config-xo-next/prettier.config"
 ```
-
-For some reason, `"importSort": "@bjoluc/eslint-config-xo-next/importsort.config"` doesn't work. An `importsort.config.js` file with `module.exports = require("@bjoluc/eslint-config-xo-next/importsort.config");` does.

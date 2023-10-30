@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/bjoluc/eslint-config-xo-next/compare/v2.0.0...v2.0.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* Prevent a configuration issue with the Prettier VSCode extension ([05e292e](https://github.com/bjoluc/eslint-config-xo-next/commit/05e292e7cae63e75ec9b12b5cc5d0cbb79300c1c))
+
 ## [2.0.0](https://github.com/bjoluc/eslint-config-xo-next/compare/v1.1.0...v2.0.0) (2023-10-28)
 
 

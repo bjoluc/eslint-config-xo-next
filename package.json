@@ -1,6 +1,6 @@
 {
 	"name": "@bjoluc/eslint-config-xo-next",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "ESLint (using XO rules) and Prettier config for Next.js projects",
 	"main": ".eslintrc.js",
 	"files": [

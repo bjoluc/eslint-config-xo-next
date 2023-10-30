@@ -4,6 +4,6 @@ module.exports = {
 	useTabs: true,
 	bracketSpacing: false,
 
-	plugins: [require("prettier-plugin-organize-imports")],
+	plugins: ["prettier-plugin-organize-imports"],
 	organizeImportsSkipDestructiveCodeActions: true,
 };
